@@ -5,12 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StartMenuComponent } from './start-menu/start-menu.component';
-import { SubMenuComponent } from './sub-menu/sub-menu.component';
-
 import { MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
-  declarations: [AppComponent, StartMenuComponent, SubMenuComponent],
+  declarations: [AppComponent, StartMenuComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
