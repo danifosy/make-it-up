@@ -1,3 +1,16 @@
+body {
+  overflow: hidden;
+}
+
 .tileEyes {
-  background-color: black;
+  height: 40vh;
+}
+
+.tileLips {
+  height: 40vh;
+  filter: contrast(110%);
+}
+
+.tileFoundation {
+  height: 40vh;
 }
