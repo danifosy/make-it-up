@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StartMenuComponent } from './start-menu/start-menu.component';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 import { EyeMenuComponent } from './eye-menu/eye-menu.component';
 import { LipMenuComponent } from './lip-menu/lip-menu.component';
 import { FaceMenuComponent } from './face-menu/face-menu.component';
@@ -24,6 +25,7 @@ import { NailMenuComponent } from './nail-menu/nail-menu.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatGridListModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
